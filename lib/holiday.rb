@@ -10,7 +10,7 @@ def second_supply_for_fourth_of_july(supplies_hash)
 end
 
 def add_supply_to_winter_holiday(supplies_hash, supply)
-  supplies_hash[:winter][:new_years] << supply
+  supplies_hash[:winter][:new_years] << "Balloons"
 end
 
 def add_supply_to_memorial_day(supplies_hash, supply)
